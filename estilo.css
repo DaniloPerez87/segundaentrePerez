@@ -1,0 +1,221 @@
+*{
+margin: 0;
+padding: 0;  
+box-sizing: border-box;  
+}
+.encabezado{
+height: 80px;
+width: 220vh;
+    background-color: rgba(255, 166, 0, 0.877);
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    text-transform: capitalize;
+    padding: 20px;
+    box-shadow: inset 0 0 5px #222;
+
+    }
+    .logo{
+        float: left;
+    font-weight: bold;
+    text-shadow: color  rgb(22, 7, 231);
+    color:rgb(231, 97, 7); ;
+    }
+    .logo span{
+        color: rgb(17, 0, 255);
+        text-shadow: #222;
+    }
+    .barra{
+        float: right;
+    }
+.encabezado ul li{
+    list-style: none;
+    text-decoration: underline whitesmoke;
+    display: inline-block;
+}
+.encabezado ul li a{
+    text-decoration:none;
+    color: blue;
+}
+.encabezado li a:hover{
+    color: 000;
+}
+main{
+    height: 150vh;
+    width: 1400px;
+    background-image:url(./pages/multimedia/flota.jpg);
+    background-size: cover;
+    background-position: center;
+    grid: gap 10px 30px;
+}
+.call{
+    color: rgb(8, 8, 187);
+    height: 35%;
+    width: 60%;
+    float: right; 
+    padding: 5%;
+    text-decoration: none;
+    background-color: rgba(255, 102, 0, 0.836);
+    border: 3px; color: rgba(2, 2, 75, 0.678);
+    margin: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1{
+    color:rgba(89, 0, 255, 0.836);
+    margin-bottom: 25px;
+    text-decoration: none;
+    
+}
+.call p{
+    margin-bottom: 25px;
+}
+.call a{
+    background-color: rgba(55, 0, 255, 0.116);
+    
+}
+.call a:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: orangered (255, 102, 0, 0.836);
+    border: 3px dashed cornflowerblue;
+}
+h2{
+    background-color: orange;
+    color: rgb(7, 15, 128);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    border: 5px white;
+    height: 250px;
+    width: 1400px;
+}
+.section{
+    height: 500px;
+    width: 1400px;
+    border: 2px white;
+}
+.cont1{
+    display: flex;
+    flex-direction:wrap-reverse ;
+    flex-flow: row wrap ;
+    justify-content: center;
+    align-items: stretch;
+
+}
+.footer{
+    background-color: blue;
+    width: 1400px;
+    color: rgb(255, 187, 0);
+    text-align: center;justify-content: space-evenly;
+    text-shadow: #222;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.item{
+    height: 120px;
+    width: 120px;
+    background-color: orange;
+    color: rgb(7, 7, 153);
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid white;
+    font-size: 25px;
+}
+.container{
+    display: grid;
+    heig: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px auto 40px;
+    grid-template-areas: 
+    "costado cabecera cabecera"
+    "costado main main"
+    "costado piegrid piegrid";
+
+}
+.header{
+    grid-area: cabecera;
+}
+.aside{
+    display: grid;
+    grid-area: costado;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px auto 40px;
+    grid-template-areas: 
+    "cabecera cabecera"
+    "aside main"
+    "aside main";
+    background-color: orange;
+    border: 4px blue;
+    grid: gap 10px 30px;
+
+}
+.main{
+        display: grid;
+        grid-area:main;
+        height: 100vh;
+        grid-template-columns: 2fr;
+        grid-template-rows: 80px auto 40px;
+        grid-template-areas: 
+        "cabecera cabecera"
+        "aside main"
+        "aside main";
+        background-color: orange;
+        border: 4px blue;
+    grid: gap 10px 30px;
+}
+body {
+  border: 2px solid;
+  background: #2c2827 !important;
+  height: 100vh;
+}
+
+div {
+}
+
+section:has(.col-6)  {
+  background: pink;
+  border: 2px solid;
+}
+
+.carousel {
+  
+} 
+.slider{
+  
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+
+}
+.slider ul{
+    display: flex;
+    animation: cambio 20s infinite alternate;
+}
+
+.slider li{
+    width: 50%;
+    list-style: none;
+}
+
+.slider img{
+  margin: 50%;
+  height: 50%;
+ }
+
+@keyframes cambio{
+    0%{margin-left:0;}
+    20%{margin-left:0;}
+
+    25%{margin: left -100%;}
+    45%{margin: left -100%;}
+
+    50%{margin: left -200%;}
+    70%{margin: left -200%;}
+
+    75%{margin: left -300%;}
+    100%{margin: left -300%;}
+}    

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel=" stylesheet" href="./estilo.css">
+    
+    <title>servicios</title>
+    
+
+</head>
+
+
+
+
+
+<body>
+    <header class="header"></header>
+    <div class="banner">
+        <nav class="nav">
+            <img src=".//pages/multimedia/truck.png" class="logo envíos" title="foto de un camion">
+       
+        <ul>
+           
+                
+            <li>SERVICIOS</li>
+            <li>COBERTURA</li>
+            <li>SUMATE</li>
+            <li>TRACKEO ONLINE</li>
+        </ul>
+    </div>
+    
+    <h1>ARLO</h1>
+    <h2>ENTREGAS DE ULTIMA MILLA</h2>
+    </header>
+    
+    <br><br><br>
+    <h3>NUESTROS SERVICIOS A TU MEDIDA</h3>
+<br><br>
+<div>
+<h3>EXPRESS</h3>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, voluptate! Officia eaque sit dolor obcaecati aspernatur numquam magnam ut esse tempore, magni consectetur minus pariatur cupiditate molestias, fuga dolores natus, laudantium molestiae. Velit fugit nemo sint harum facere placeat ipsam, repudiandae praesentium excepturi beatae delectus! Consectetur ex aliquam recusandae rerum accusantium earum, impedit excepturi suscipit deleniti fuga eaque neque iste facilis expedita eius voluptatibus fugiat! Quam impedit esse reiciendis perspiciatis. Libero, nisi. Quidem maxime laborum nemo alias, atque inventore sapiente. Provident, iste ipsam et delectus ab dolore est optio consectetur velit iusto dolor assumenda odit saepe. Ad aut omnis quisquam!</p>
+<br><br>
+<h3>24/48</h3>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, voluptate! Officia eaque sit dolor obcaecati aspernatur numquam magnam ut esse tempore, magni consectetur minus pariatur cupiditate molestias, fuga dolores natus, laudantium molestiae. Velit fugit nemo sint harum facere placeat ipsam, repudiandae praesentium excepturi beatae delectus! Consectetur ex aliquam recusandae rerum accusantium earum, impedit excepturi suscipit deleniti fuga eaque neque iste facilis expedita eius voluptatibus fugiat! Quam impedit esse reiciendis perspiciatis. Libero, nisi. Quidem maxime laborum nemo alias, atque inventore sapiente. Provident, iste ipsam et delectus ab dolore est optio consectetur velit iusto dolor assumenda odit saepe. Ad aut omnis quisquam!</p>
+    <br><br>
+<h3>SEMANA PROGRAMADA</h3>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, natus id cupiditate illo hic mollitia earum tenetur saepe? Adipisci repellat eum quaerat corporis facere officiis, et natus excepturi, voluptates voluptatibus totam nostrum impedit necessitatibus voluptatem iusto omnis sapiente nisi quisquam laudantium quos! Amet facilis praesentium quis adipisci eum neque provident architecto deleniti minima officiis nisi eius ut cumque unde minus natus dolor, est pariatur expedita! Voluptatem, molestias ullam facere iure dolor, aliquam sit incidunt ratione excepturi, vel cumque esse nostrum possimus sunt molestiae ex? Voluptates eum ullam consequuntur veritatis minima reprehenderit quis deserunt provident, quisquam nulla, laboriosam vero accusantium laborum!</p>
+    <br><br>
+<h3>EMPRESAS</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, molestias quibusdam aperiam voluptate sint neque adipisci et, assumenda harum, fuga labore facere dolores! Reiciendis inventore esse et dignissimos praesentium veritatis asperiores impedit. Commodi sapiente in necessitatibus, placeat eius minus libero? Maiores officia eaque cum molestiae ut iste delectus tempore sed, ad nam at neque molestias aut autem corrupti laborum unde fugit et voluptates placeat adipisci quibusdam, magni, assumenda nulla? Unde laboriosam distinctio ipsa tempora sapiente molestiae modi repudiandae voluptates consectetur excepturi exercitationem nostrum accusantium, repellat animi dolorum, explicabo nesciunt beatae? Sapiente laboriosam tenetur odit quo dicta, temporibus amet suscipit reiciendis!</p>
+</div>
+
+
+    <br><br>
+
+        <footer>
+            <footer class="footer">
+                <a href="header class="header></a>
+                <div class="footer_redes"></div>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </footer>
+            
+        </footer>
+</body>
+
+
+
+</html>
